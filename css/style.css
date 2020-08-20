@@ -5,6 +5,9 @@
 h1{
 	font-weight: 600;
 }
+h1::after{
+	content: "Hi!";
+}
 .Finish{
 	text-align: center;
 	font-size: 20px;
